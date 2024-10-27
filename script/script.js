@@ -46,7 +46,7 @@ console.log(mountainSubstr);
 
 // 7. Aggiungi padding a una stringa
 // Aggiungi zeri all'inizio della variabile elevation per renderla lunga 6 caratteri
-const paddedElevation = true;
+const paddedElevation = "00" + elevation;
 console.log(paddedElevation);
 
 // 8. 4Carlo
