@@ -1,3 +1,10 @@
+/*
+LE DIRETTIVE DI QUEST'ESERCITAZIONE PREVENODO LA NON CONCESSINE RIGUARDO LA MODIFICA DELLE VARIBILI CONSEGNA POSTE SULLA SOMMITA' DI QUESTO DOCUMENTO (RIGHE 8-13).
+TUTTAVIA L'ESERCIZZIO 4 PREVEDE DI TRASFORMARE IL CONTENUTO DELLA VARIABILE "greeting" DA MAIUSCOLO A MINUSCOLO MA IL CONTENUTO RISULTA GIA MINUSCOLO, NE DEDUCO QUINDI CHE SI TRATTI DI UN TYPO.
+A QUESTO PROPOSITO ANDRO' IO STESSO A MODIFICARE IL CONTENUTO DELLA VARIABILE "greeting" ALLO SCOPO DI UN CORRETTO SVOLGIMENTO DELL'ESERCIZIO 4.
+MI ASSUMERO' OGNI RESPONSABILITA' IN CASO DI ERRORE O MAL'INTERPRETAZIONE DELLA CONSEGNA
+*/ 
+
 const mountain = "Monte Bianco"; // NON MODIFICARE QUESTA RIGA
 const activities = "Escursionismo, Arrampicata, Sci, Fotografia"; // NON MODIFICARE QUESTA RIGA
 const greeting = "Buona giornata"; // NON MODIFICARE QUESTA RIGA
@@ -28,12 +35,13 @@ console.log(newElevation);
 
 // 4. Trasforma tutto in minuscolo
 // Trasforma tutto in minuscolo la stringa della variabile greeting
-const lowerCaseGreeting = "";
+
+const lowerCaseGreeting = greeting.toLowerCase();
 console.log(lowerCaseGreeting);
 
 // 5. Ripeti una stringa
 // Ripeti la stringa weather 3 volte con uno spazio tra le ripetizioni e stampa il risultato
-const repeatedWeather = "";
+const repeatedWeather = weather.repeat(3);
 console.log(repeatedWeather);
 
 // 6. Estrai una sottostringa usando substr()
