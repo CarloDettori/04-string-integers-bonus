@@ -54,9 +54,11 @@ const songTitle = "welcome to tijuana"; // NON MODIFICARE QUESTA RIGA
 
 // Trasforma la stringa in modo che la prima lettera di welcome e tijuana siano maiuscole
 // P.S: serviti della funzione charAt() per completare il task.
+const charOne = songTitle.charAt(0);
+const chartwo = songTitle.charAt(11);
 const slicedTitleOne = songTitle.slice(0, 9);
 const slicedTitleTwo = songTitle.slice(9); // attento forse ci sara' da fare un fix e ovviamente un aggiunta
-const capitalizedTitleOne = slicedTitleOne.replace("w", "W");
-const capitalizedTitleTwo = slicedTitleTwo.replace("t", "T");
-const finalTitle = capitalizedTitleOne + capitalizedTitleTwo
+const capitalizedTitleOne = slicedTitleOne.replace(charOne, "W");
+const capitalizedTitleTwo = slicedTitleTwo.replace(chartwo, "T");
+const finalTitle = capitalizedTitleOne + capitalizedTitleTwo;
 console.log(finalTitle); // Output: "Welcome to Tijuana"
