@@ -11,8 +11,14 @@ console.log(sixthChar);
 
 // 2. Verifica se una stringa contiene una sottostringa
 // Verifica se la variabile activities contiene la parola 'Sci' e stampa il risultato (true/false)
-const hasSki = null;
-console.log(hasSki);
+const hasSki = activities.indexOf("Sci");
+    if (hasSki == -1) {
+        console.log("false")
+    }
+    else {
+        console.log("true")
+    }
+// console.log(hasSki);
 
 // 3. Converti una stringa in numero e fai un calcolo
 // Converti la variabile elevation in un numero e aggiungi 10, poi stampa il risultato
