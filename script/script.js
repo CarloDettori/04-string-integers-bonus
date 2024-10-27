@@ -22,7 +22,8 @@ const hasSki = activities.indexOf("Sci");
 
 // 3. Converti una stringa in numero e fai un calcolo
 // Converti la variabile elevation in un numero e aggiungi 10, poi stampa il risultato
-const elevationNumber = null;
+const elevationNumber = parseInt(elevation);
+const newElevation = elevationNumber + 10;
 console.log(newElevation);
 
 // 4. Trasforma tutto in minuscolo
