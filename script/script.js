@@ -41,7 +41,7 @@ console.log(repeatedWeather);
 
 // 6. Estrai una sottostringa usando substr()
 // Estrai 'Bianco' dalla variabile mountain usando substr()
-const mountainSubstr = false;
+const mountainSubstr = mountain.substr(6);
 console.log(mountainSubstr);
 
 // 7. Aggiungi padding a una stringa
